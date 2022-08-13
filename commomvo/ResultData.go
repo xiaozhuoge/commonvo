@@ -1,4 +1,4 @@
-package vo
+package commomvo
 
 type ResultData[T any, V any] struct {
 	Code    int32  `json:"Code"`
