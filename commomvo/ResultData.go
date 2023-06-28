@@ -51,7 +51,7 @@ type ResultDataWithFiveExtParameters[T any, V any, B any, C any, D any, E any] s
 	Data         T      `json:"Data"`
 }
 
-type ResultDataWithSixExtParameters[T any, V any, B any, C any, D any, E any] struct {
+type ResultDataWithSixExtParameters[T any, V any, B any, C any, D any, E any, F any] struct {
 	Code         int32  `json:"Code"`
 	Message      string `json:"Message"`
 	ExtData      V      `json:"ExtData"`
@@ -59,11 +59,11 @@ type ResultDataWithSixExtParameters[T any, V any, B any, C any, D any, E any] st
 	ExtDataThree C      `json:"ExtDataThree"`
 	ExtDataFour  D      `json:"ExtDataFour"`
 	ExtDataFive  E      `json:"ExtDataFive"`
-	ExtDataSix   E      `json:"ExtDataSix"`
+	ExtDataSix   F      `json:"ExtDataSix"`
 	Data         T      `json:"Data"`
 }
 
-type ResultDataWithSevenExtParameters[T any, V any, B any, C any, D any, E any] struct {
+type ResultDataWithSevenExtParameters[T any, V any, B any, C any, D any, E any, F any, G any] struct {
 	Code         int32  `json:"Code"`
 	Message      string `json:"Message"`
 	ExtData      V      `json:"ExtData"`
@@ -71,12 +71,12 @@ type ResultDataWithSevenExtParameters[T any, V any, B any, C any, D any, E any] 
 	ExtDataThree C      `json:"ExtDataThree"`
 	ExtDataFour  D      `json:"ExtDataFour"`
 	ExtDataFive  E      `json:"ExtDataFive"`
-	ExtDataSix   E      `json:"ExtDataSix"`
-	ExtDataSeven E      `json:"ExtDataSeven"`
+	ExtDataSix   F      `json:"ExtDataSix"`
+	ExtDataSeven G      `json:"ExtDataSeven"`
 	Data         T      `json:"Data"`
 }
 
-type ResultDataWithEightExtParameters[T any, V any, B any, C any, D any, E any] struct {
+type ResultDataWithEightExtParameters[T any, V any, B any, C any, D any, E any, F any, G any, H any] struct {
 	Code         int32  `json:"Code"`
 	Message      string `json:"Message"`
 	ExtData      V      `json:"ExtData"`
@@ -84,13 +84,13 @@ type ResultDataWithEightExtParameters[T any, V any, B any, C any, D any, E any] 
 	ExtDataThree C      `json:"ExtDataThree"`
 	ExtDataFour  D      `json:"ExtDataFour"`
 	ExtDataFive  E      `json:"ExtDataFive"`
-	ExtDataSix   E      `json:"ExtDataSix"`
-	ExtDataSeven E      `json:"ExtDataSeven"`
-	ExtDataEight E      `json:"ExtDataEight"`
+	ExtDataSix   F      `json:"ExtDataSix"`
+	ExtDataSeven G      `json:"ExtDataSeven"`
+	ExtDataEight H      `json:"ExtDataEight"`
 	Data         T      `json:"Data"`
 }
 
-type ResultDataWithNineExtParameters[T any, V any, B any, C any, D any, E any] struct {
+type ResultDataWithNineExtParameters[T any, V any, B any, C any, D any, E any, F any, G any, H any, I any] struct {
 	Code         int32  `json:"Code"`
 	Message      string `json:"Message"`
 	ExtData      V      `json:"ExtData"`
@@ -98,14 +98,14 @@ type ResultDataWithNineExtParameters[T any, V any, B any, C any, D any, E any] s
 	ExtDataThree C      `json:"ExtDataThree"`
 	ExtDataFour  D      `json:"ExtDataFour"`
 	ExtDataFive  E      `json:"ExtDataFive"`
-	ExtDataSix   E      `json:"ExtDataSix"`
-	ExtDataSeven E      `json:"ExtDataSeven"`
-	ExtDataEight E      `json:"ExtDataEight"`
-	ExtDataNine  E      `json:"ExtDataNine"`
+	ExtDataSix   F      `json:"ExtDataSix"`
+	ExtDataSeven G      `json:"ExtDataSeven"`
+	ExtDataEight H      `json:"ExtDataEight"`
+	ExtDataNine  I      `json:"ExtDataNine"`
 	Data         T      `json:"Data"`
 }
 
-type ResultDataWithTenExtParameters[T any, V any, B any, C any, D any, E any] struct {
+type ResultDataWithTenExtParameters[T any, V any, B any, C any, D any, E any, F any, G any, H any, I any, J any] struct {
 	Code         int32  `json:"Code"`
 	Message      string `json:"Message"`
 	ExtData      V      `json:"ExtData"`
@@ -113,11 +113,11 @@ type ResultDataWithTenExtParameters[T any, V any, B any, C any, D any, E any] st
 	ExtDataThree C      `json:"ExtDataThree"`
 	ExtDataFour  D      `json:"ExtDataFour"`
 	ExtDataFive  E      `json:"ExtDataFive"`
-	ExtDataSix   E      `json:"ExtDataSix"`
-	ExtDataSeven E      `json:"ExtDataSeven"`
-	ExtDataEight E      `json:"ExtDataEight"`
-	ExtDataNine  E      `json:"ExtDataNine"`
-	ExtDataTen   E      `json:"ExtDataTen"`
+	ExtDataSix   F      `json:"ExtDataSix"`
+	ExtDataSeven G      `json:"ExtDataSeven"`
+	ExtDataEight H      `json:"ExtDataEight"`
+	ExtDataNine  I      `json:"ExtDataNine"`
+	ExtDataTen   J      `json:"ExtDataTen"`
 	Data         T      `json:"Data"`
 }
 
