@@ -1,5 +1,10 @@
 package commonvo
 
+type ResultStatus[T any] struct {
+	Code    int32  `json:"Code"`
+	Message string `json:"Message"`
+}
+
 type ResultData[T any] struct {
 	Code    int32  `json:"Code"`
 	Message string `json:"Message"`
