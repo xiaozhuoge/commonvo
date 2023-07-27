@@ -1,15 +1,15 @@
 package commonvo
 
-type ResultData[T any, V any] struct {
+type ResultData[T any] struct {
 	Code    int32  `json:"Code"`
 	Message string `json:"Message"`
-	ExtData V      `json:"ExtData"`
 	Data    T      `json:"Data"`
 }
 
-type ResultDataWithoutExtParameters[T any] struct {
+type ResultDataWithOneExtParameters[T any, V any] struct {
 	Code    int32  `json:"Code"`
 	Message string `json:"Message"`
+	ExtData V      `json:"ExtData"`
 	Data    T      `json:"Data"`
 }
 
