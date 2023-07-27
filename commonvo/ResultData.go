@@ -126,6 +126,41 @@ type ResultDataWithTenExtParameters[T any, V any, B any, C any, D any, E any, F 
 	Data         T      `json:"Data"`
 }
 
+type ResultDataWithElevenExtParameters[T any, V any, B any, C any, D any, E any, F any, G any, H any, I any, J any, K any] struct {
+	Code          int32  `json:"Code"`
+	Message       string `json:"Message"`
+	ExtData       V      `json:"ExtData"`
+	ExtDataTwo    B      `json:"ExtDataTwo"`
+	ExtDataThree  C      `json:"ExtDataThree"`
+	ExtDataFour   D      `json:"ExtDataFour"`
+	ExtDataFive   E      `json:"ExtDataFive"`
+	ExtDataSix    F      `json:"ExtDataSix"`
+	ExtDataSeven  G      `json:"ExtDataSeven"`
+	ExtDataEight  H      `json:"ExtDataEight"`
+	ExtDataNine   I      `json:"ExtDataNine"`
+	ExtDataTen    J      `json:"ExtDataTen"`
+	ExtDataEleven K      `json:"ExtDataEleven"`
+	Data          T      `json:"Data"`
+}
+
+type ResultDataWithTwelveExtParameters[T any, V any, B any, C any, D any, E any, F any, G any, H any, I any, J any, K any, L any] struct {
+	Code          int32  `json:"Code"`
+	Message       string `json:"Message"`
+	ExtData       V      `json:"ExtData"`
+	ExtDataTwo    B      `json:"ExtDataTwo"`
+	ExtDataThree  C      `json:"ExtDataThree"`
+	ExtDataFour   D      `json:"ExtDataFour"`
+	ExtDataFive   E      `json:"ExtDataFive"`
+	ExtDataSix    F      `json:"ExtDataSix"`
+	ExtDataSeven  G      `json:"ExtDataSeven"`
+	ExtDataEight  H      `json:"ExtDataEight"`
+	ExtDataNine   I      `json:"ExtDataNine"`
+	ExtDataTen    J      `json:"ExtDataTen"`
+	ExtDataEleven K      `json:"ExtDataEleven"`
+	ExtDataTwelve L      `json:"ExtDataTwelve"`
+	Data          T      `json:"Data"`
+}
+
 type PageBean[T any] struct {
 	TotalCount  int64 `json:"TotalCount"`
 	CurrentData []T   `json:"CurrentData"`
