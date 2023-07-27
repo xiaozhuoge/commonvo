@@ -1,6 +1,6 @@
 package commonvo
 
-type ResultStatus[T any] struct {
+type ResultStatus struct {
 	Code    int32  `json:"Code"`
 	Message string `json:"Message"`
 }
