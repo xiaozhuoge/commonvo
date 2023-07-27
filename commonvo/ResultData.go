@@ -6,7 +6,7 @@ type ResultData[T any] struct {
 	Data    T      `json:"Data"`
 }
 
-type ResultDataWithOneExtParameters[T any, V any] struct {
+type ResultDataWithOneExtParameter[T any, V any] struct {
 	Code    int32  `json:"Code"`
 	Message string `json:"Message"`
 	ExtData V      `json:"ExtData"`
